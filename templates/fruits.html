@@ -18,21 +18,22 @@
           </div>
         </div>
       </header>
-  
+
       <main role="main">
-  
+
         <section class="jumbotron text-center">
           <div class="container">
             <h1 class="jumbotron-heading">Dojo Fruits</h1>
-            <p>Please figure out how to display the images here...</p>
-
-            <p>
               <a href="/" class="btn btn-primary my-2">Go back</a>
             </p>
           </div>
         </section>
-  
       </main>
-      
+      <div class="row b4-">
+        <img class="img-fluid col-2 align-items-center rounded mx-auto d-block" src="{{ url_for('static', filename='img/strawberry.png') }}" alt="apple" srcset="">
+        <img class="img-fluid col-2 align-items-center rounded mx-auto d-block" src="{{ url_for('static', filename='img/raspberry.png') }}" alt="apple" srcset="">
+        <img class="img-fluid col-2 align-items-center rounded mx-auto d-block" src="{{ url_for('static', filename='img/blackberry.png') }}" alt="apple" srcset="">
+        <img class="img-fluid col-2 align-items-center rounded mx-auto d-block" src="{{ url_for('static', filename='img/apple.png') }}" alt="apple" srcset="">
+      </div>
 </body>
 </html>
